@@ -1,0 +1,33 @@
+/* src/app/register/register.component.css */
+
+.register-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.register-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
